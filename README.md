@@ -48,7 +48,6 @@ _This checklist will apply to only Magento 2.x versions._
 * Are you limiting the failed admin login attempts to a reasonable number of times (eg 3)?
 * Confirm that Web -> Default Cookie Settings -> Use HTTP Only is not disabled?
 * Are you using 2FA for your admin login? 
-  * [MageSpecialist TwoFactorAuth module](https://github.com/magespecialist/m2-MSP_TwoFactorAuth) 
 * Are there any old/unused admin users which were created for testing or development that should be removed?
 * Are you using CAPTCHA/ reCAPTCHA for customer facing web forms?
 
