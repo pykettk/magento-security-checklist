@@ -35,6 +35,7 @@ _This checklist will apply to only Magento 2.x versions._
   * Review if Passwords/API Credentials or other Sensitive Data stored by 3rd Party Extension are not save in Database using `plaintext`!
   * (TODO: Link to more sample tools to help perform security audit on extensions)
 * Review the need of using `Magento_Swagger` & `Magento_Version` Modules in Production Environment (consider to `Disable` those CORE Modules or at the very least restrict access to `hostname/magento_version` and `hostname/swagger`)
+* Review the need of using `hostname/setup` in Production Environment (consider to restrict the access)
 * Are you updating the 3rd party extensions on a regular basis?
 
 ## Magento Admin settings 
